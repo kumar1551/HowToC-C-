@@ -4,7 +4,7 @@
 // functions prototypes
 int * create_array(int len); 
 int * scan_array(int *arr, int len);
-int * print_array(int *arr, int len);
+void print_array(int *arr, int len);
 int * rotate_array(int *arr, int len, int d);
 
 
@@ -54,7 +54,7 @@ int * scan_array(int *arr, int len){
     return arr;
 }
 
-int * print_array(int *arr, int len){
+void print_array(int *arr, int len){
     int i;
     for(i=0; i<len-1; i++)
         printf("%d, ", arr[i]); // printing till second last element
