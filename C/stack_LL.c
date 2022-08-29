@@ -68,7 +68,7 @@ int main(){
 	struct node * stack=NULL, popped;
 	int data, action, t;
 	
-	system("cls");
+	system("clear");
 	
 	while(1){
 
@@ -112,7 +112,7 @@ int main(){
 		scanf("%d", &t);
 		
 		if (t == 1){
-			system("cls");
+			system("clear");
 			continue;
 		}
 		else

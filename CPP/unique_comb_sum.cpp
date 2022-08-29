@@ -75,7 +75,7 @@ int main()
 			cout << " ( ";
 			for (int j = 0; j < ans[i].size(); j++)
 				cout << ans[i][j] << " ";
-			cout << ")";
+			cout << ")"<<endl;
 		}
 	}
 return 0;

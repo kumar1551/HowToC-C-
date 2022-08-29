@@ -12,7 +12,6 @@ int main()
 {
     int n, d, *arr;
 
-    system("cls");
 
     printf("\nEnter array size: ");
     scanf("%d", &n);
@@ -20,7 +19,6 @@ int main()
     arr = create_array(n);
     arr = scan_array(arr, n); // input
 
-    system("cls");
 
     printf("\nEnter no of elements to rotate: ");
     scanf("%d", &d);
@@ -32,6 +30,7 @@ int main()
     
     printf("\nRotated array: ");
     print_array(arr, n);
+	printf("\n");
 
     free(arr);
 
