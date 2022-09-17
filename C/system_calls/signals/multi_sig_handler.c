@@ -32,7 +32,7 @@ void signal_handler(int signal_number){
 
 }
 
-int main(){
+int main() {
 
     signal(SIGINT, signal_handler);
     signal(SIGHUP, signal_handler);
